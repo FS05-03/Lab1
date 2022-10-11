@@ -7,6 +7,10 @@ package pt.pa.adts;
  */
 public interface Queue<E> {
 
-    //TODO: definir operações do ADT e documentá-las
-
+        E enqueue( E e);
+        E dequeue();
+        E front();
+        int size();
+        boolean isEmpty();
+        void clear();
 }

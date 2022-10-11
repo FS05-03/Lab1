@@ -9,6 +9,8 @@ public class Main {
 
         Queue<Integer> queue = new QueueLinkedList<>();
 
+        System.out.println(queue.size());
+
         //TODO: testar implementação
 
     }
